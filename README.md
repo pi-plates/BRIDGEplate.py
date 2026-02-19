@@ -14,9 +14,9 @@ Python library for controlling Pi-Plates devices through the BRIDGEplate USB int
 
 | Plate | Description | Key Features |
 |-------|-------------|--------------|
-| **ADCplate** | High-precision analog input | 16-bit resolution, 8 single-ended or 4 differential inputs, 4-20mA current loop |
-| **DAQCplate** | Data acquisition & control | 8 analog inputs (10-bit), 7 digital outputs, 2 PWM, 2 DAC |
-| **DAQC2plate** | Enhanced data acquisition | 12-bit ADC, RGB LED, function generator, oscilloscope mode |
+| **ADCplate** | High-precision analog input | 24-bit resolution, 8 single-ended or 4 differential inputs, 4-20mA current loop |
+| **DAQCplate** | Data acquisition & control | 8 analog inputs (10-bit), 8 digital inputs, 7 digital outputs, 2 PWM, 2 DAC |
+| **DAQC2plate** | Enhanced data acquisition | 16-bit ADC, RGB LED, 8 digital inputs, 8 digital outputs, PWMs, DACs, function generator, oscilloscope mode |
 | **CURRENTplate** | Current measurement | 8 channels, high-precision current sensing |
 | **DIGIplate** | Digital input & frequency | 8 digital inputs, frequency measurement on 6 channels |
 | **RELAYplate** | Relay control | 7 electromechanical relays |
