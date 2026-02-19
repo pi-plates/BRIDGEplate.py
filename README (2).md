@@ -28,7 +28,9 @@ Python library for controlling Pi-Plates devices through the BRIDGEplate USB int
 ### Requirements
 
 ```bash
-pip install pyserial
+pip install Pi-Plates
+or
+pip install --break-system-packages Pi-Plates
 ```
 
 ### Platform-Specific Setup
