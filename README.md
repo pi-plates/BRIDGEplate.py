@@ -192,6 +192,9 @@ getFWrev(addr)   # Get firmware revision
 setLED(addr)     # Turn on LED
 clrLED(addr)     # Turn off LED
 toggleLED(addr)  # Toggle LED
+
+#Help request
+help() 
 ```
 
 ### Argument Ranges
