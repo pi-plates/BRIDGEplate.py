@@ -1223,6 +1223,10 @@ class DIGI:
         resp = parseIt("DIGI.eventDisable", myList)
         return resp
 
+    @staticmethod
+    def help():
+        dispBlock("DIGI.help") 
+
 """
 RELAY class includes all 12 functions
 Common Functions: getADDR, getID, getHWrev, getFWrev
@@ -1309,6 +1313,10 @@ class RELAY:
         myList = [*args]
         resp = parseIt("RELAY.relaySTATE", myList)
         return resp
+
+    @staticmethod
+    def help():
+        dispBlock("RELAY.help") 
 
 """
 RELAY2 class includes all 12 functions
@@ -1398,6 +1406,10 @@ class RELAY2:
         myList = [*args]
         resp = parseIt("RELAY2.relaySTATE", myList)
         return resp
+
+    @staticmethod
+    def help():
+        dispBlock("RELAY2.help") 
 
 """
 THERMO class includes all 24 functions
@@ -1571,7 +1583,11 @@ class THERMO:
         myList = [*args]
         resp = parseIt("THERMO.clrINT", myList)
         return resp
-    
+
+    @staticmethod
+    def help():
+        dispBlock("THERMO.help") 
+
 def POLL():
     #global ser
     ADCplates=['-','-','-','-','-','-','-','-']
